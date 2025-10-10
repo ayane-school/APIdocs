@@ -1,8 +1,9 @@
 import "@/app/globals.css";
+import Footer from "@/components/footer";
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Ayane(UTAU) - License & Credit",
-  description: "彩音の利用規約とクレジット",
+  title: "API License",
+  description: "APIのライセンスのページです",
 };
 
 export default function Page() {
@@ -112,6 +113,7 @@ export default function Page() {
             </li>
           </ol>
         </section>
+        <Footer />
       </div>
     </div>
   );

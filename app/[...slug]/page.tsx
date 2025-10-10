@@ -4,6 +4,7 @@ import type { HTMLAttributes, ReactNode } from "react";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import Footer from "@/components/footer";
 export const dynamic = "force-static";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -127,6 +128,7 @@ export default async function PostPage({ params }: PostPageProps) {
       <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
         {content}
       </ReactMarkdown>
+      <Footer />
     </div>
   );
 }

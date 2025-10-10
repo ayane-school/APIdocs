@@ -6,7 +6,7 @@ export default function Home() {
   const codeLines = [
     "import requests",
     "",
-    'url = "https://api.example.com/data"',
+    'url = "https://api.ayane0857.net/payment/"',
     "response = requests.get(url, params=params)",
     "print(data = response.json())",
   ];
